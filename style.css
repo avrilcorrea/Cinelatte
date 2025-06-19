@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li {
+    margin: 13px;
+}
+
+header img{
+    width: 150px;
+}
+
+h1{
+    font-size: 26px;
+    color: rgb(71, 48, 13);
+    font-family: "Fira Sans Condensed", sans-serif;
+}
+
+.caja h2{
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.caja h3{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+p{
+    font-size: 15px;
+    color: rgb(69, 70, 71);
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}
+
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja img {
+    border-radius: 300%;
+    width: 150px;
+    padding: 5px;
+    border: 2px solid rgb(65, 43, 11);
+}
+
+#INICIO{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#INICIO iframe{
+    margin: 10px;
+}
+
+#PRODUCTOS img{
+    width: 100%;
+
+}
+
+#CONTACTOS iframe{
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+#CONTACTOS p{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#NOSOTROS{
+    margin: 50px 0px 0px 0px;
+}
+
+#NOVEDADES{
+    margin: 50px 0px 0px 0px;
+}
+
+#NOVEDADES h1{
+    display: flex;
+    justify-content: center;
+}
+
+.caja2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+
+.caja2 img {
+    width: 100%;
+    margin: 20px 10px 20px 40px;
+}
+
+.caja2 li{
+    color: rgb(69, 70, 71);
+}
+
+.contenedor2 {
+    margin: 50px 0px 50px 0px;
+    flex-direction: row;
+    display:flex
+}
+
+.caja2 a {
+    background-color: rgb(56, 41, 17);
+    padding: 10px;
+    margin-left: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.contenedor3{
+    text-align: center;
+    margin: 120px 0px 120px 0px;
+    flex-direction: row;
+    display:flex
+}
+
+.caja3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 20px 30px 0px;
+}
+
+.caja3 a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(56, 41, 17);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+#EVENTOS img{
+    width: 200px;
+    margin: 30px 10px 100px 40px;
+    border-radius: 300%;
+    padding: 5px;
+    border: 2px solid rgb(54, 34, 2);
+}
+
+.contenedor4{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 150px 10px 150px 10px;
+}
+
+.caja4{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 50px 30px 0px;
+}
+
+.caja4 p{
+    color: rgb(0, 0, 0);
+}
+
+.caja4 li {
+    color: rgb(0, 0, 0);
+}
+
+.caja4 {
+    border-color: rgb(97, 59, 13);
+    border: 100%;
+}
+
+body{
+    background-size: 100% 100%;
+    background-image: url(Imagenes/fondo.jpg);
+   }

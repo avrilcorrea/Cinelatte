@@ -1,0 +1,219 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script defer src= "./main.js"></script>
+    <title>Cinelatte - Avril Correa</title>
+
+ </head>
+ <body>
+  <header>
+    <div>
+      <img src="Imagenes/Logo.jpg" alt="Logo">
+    </div>
+    <nav>
+      <ul>
+        <a href="#INICIO"><li>INICIO</li></a>
+        <a href="#NOSOTROS"><li>NOSOTROS</li></a>
+        <a href="#NOVEDADES"><li>NOVEDADES</li></a>
+        <a href="#CINE"><li>CINE</li></a>
+        <a href="#PRODUCTOS"><li>PRODUCTOS</li></a>
+        <a href="#EVENTOS"><li>EVENTOS</li></a>
+        <a href="#CONTACTOS"><li>CONTACTOS</li></a>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="INICIO"></div>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Imagenes/Carrousel 1.jpg" class="d-block w-100" alt="Caeeousel 1">
+        </div>
+        <div class="carousel-item">
+          <img src="Imagenes/Carrousel 2.jpg" class="d-block w-100" alt="Caeeousel 2">
+        </div>
+        <div class="carousel-item">
+          <img src="Imagenes/carrousel 3.jpg" class="d-block w-100" alt="Caeeousel 3">
+        </div>
+        <div class="carousel-item">
+          <img src="Imagenes/carrousel 4.jpg" class="d-block w-100" alt="Caeeousel 4 ">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="NOSOTROS">
+    <div>
+      <div class="container">
+        <div class="contenedor">
+          <div class="caja">
+            <img src="Imagenes/Quienes somos.jpg" alt="Quienes somos">
+            <h1>QUIENES SOMOS</h1>
+            <p>Somos una empresa dedicada al entretenimiento cinematografico inclusivo, con servicio de cafeteria y aperitivos.</p>
+            <p>Ofrecemos funciones adaptadas con subtitulos, audiodescripción y lenguaje de señas, contamos con espacios accesibles para dispositivos de movilidad asistida como silla de ruedas, andadores o scooters electricos. Además brindamos opciones de cafeteria y aperitivos para acompañar la experiencia. Para ello, contamos con personal capacitado en lenguaje de señas, menús en braille, y opciones gastronómicas veganas, vegetarianas, sin TACC, sin sal y sin azucares.</p>
+            <div id="contenido1" style="display: none;">
+              <h2>Nuestra historia</h2>
+              <p>La empresa se creo en 2019, principalmente como un proyecto familiar. La idea de este formato de cine-cafetería inclusivo, surgió de dos hermanos, ya que su padre le diagnosticaron retinitis pigmentaria con síndrome de Usher (enfermedad que disminuye o causa pérdida de visión y audición). Al poco tiempo su padre perdió por completo la visión y redujo su audición lo cual le impedía realizar ciertas actividades. Enfocados en esta enfermedad, creamos Cinelatte como una oportunidad de entretenimiento y socialización para él y otras personas con este y otros tipos de enfermedades y discapacidades.
+              De a poco fuimos creciendo para llegar a lo que somos hoy, una empresa que cree firmemente en que el arte y la cultura deben estar al alcance de todas las personas.</p>
+              <h2>Misión</h2>
+              <p>Brindar una experiencia inclusiva cinematografico acompañado de una cafeteria de calidad y aperitivos, creando momentos unicos de sabor y emociones.</p>
+              <h2>Visión</h2>
+              <p>Convertinrnos en el espacio favorito de entretenimiento inclusivo donde el cine y la gastronomía de calidad se fusionan para crear una experiencia inolvidable.</p>
+            </div>
+            <button onclick="muestra_oculta('contenido1')">Leer más</button> 
+          </div>
+          <div class="caja">
+            <img src="Imagenes/Nuestro equipo.jpg" alt="Nuestro equipo">
+            <h1>NUESTRO EQUIPO</h1>
+            <p>Nuestro personal es parte fundamental de la empresa. Cada miembro está capacitado para brindar una atención empática y adaptada a las necesidades de los clientes.</p>
+            <p>Además, brindamos oportunidades laborales a público en general, porque la inclusión no es solo para nuestros clientes, sino también dentro de nuestro equipo.</p>
+            <div id="contenido2" style="display: none;">
+              <h2>Valores</h2>
+              <h3>Aprendizaje continuo:</h3>
+              <p>Nos adaptamos a nuevas tecnologías, técnicas de comunicación y guía, para ofrecer un servicio más eficiente y adaptado a cada necesidad de nuestros clientes.</p>
+              <h3>Materia prima:</h3>
+              <p>Seleccionamos materia prima de calidad, ingredientes frescos y cultivos seleccionados respetando su esencia natural.</p>
+              <h3>Medio ambiente:</h3>
+              <p>Nos centramos en el cuidado del medio ambiente a través de programas de reciclaje y envases biodegradables. Optimizamos energía mediante la utilización de luces LED y desconexión de aparatos que no estén siendo utilizados.</p>
+            </div>
+            <button onclick="muestra_oculta('contenido2')">Leer más</button> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <div class="container">
+      <div id="NOVEDADES">
+        <div>
+          <div class="contenedor4">
+            <div class="caja4">
+              <iframe width="540" height="300" src="https://www.youtube.com/embed/TUI3jyGm4Uk?si=L7BNiwJGDL22KKpe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="caja4">
+              <h1>NOVEDADES</h1>
+              <p>Según el Instituto Nacional de Estadística (INE) en el censo 2023</p>
+              <ul>
+                <li> El 23% de la población tine al menos una discapacidad leve </li>
+                <li> El 6% de la población tiene al menos una discapacidad moderada</li>
+                <li> El 1% de la población tiene al menos una discapacidad severa</li>
+              </ul>
+              <p> Por prestaciones, tramites, legislacion sobre discapacidad e información de su interes por discapacidad, accede a la página de <a href="https://www.gub.uy/discapacidad" target="_blank">Gub.uy</a> y <a href="https://www.bps.gub.uy/22366/discapacidad.html" target="_blank">BPS</a></p>
+            <div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <div id="CINE">
+      <div class="container"> 
+        <div class="contenedor2">
+          <div class="caja2">
+              <h1>CINE</h1>
+              <div class="row">
+                <div class="clo-md-4">
+                  <p class="text-black">Nuestro cine es un proyecto distinto en el mercado, ubicado en gran parte de nuestro local, aquí se encuentra la base de nuestra escénica. La inclusión es nuestro objetivo principal y para ello contamos con tecnología y personal capacitado.
+                  Las películas están disponibles de lunes a viernes con opciones 4D, audiodescripción, subtituladas y lengua de señas, ¿en qué consisten? </p>
+                  <ul>
+                    <li class="text-black">Las películas con audiodescripcion se basa en una descripción narrada que explican los elementos visuales claves que se presentan en la misma sin perjudicar el diálogos o efectos sonoros.</li>
+                    <li class="text-black">Las películas subtituladas; se transcriben los diálogos y sonidos de la misma.</li>
+                    <li class="text-black">Lengua de señas; consiste en el uso de gestos, expresiones faciales, miradas y movimientos corporales para expresar lo que sucede en la película.</li>
+                  </ul>
+                  <p class="text-black">A demás en nuestro cine te brindamos un servicio gastronómico que te permitirá disfrutar aun más de las películas, lo cual nos diferencian de otros cines del país. A continuación podrás ver la cartelera y horarios que tenemos disponible para esta semana haciendo click en "CARTELERA"</p>
+                </div> 
+              </div> 
+            </div>
+            <div class="caja2">
+              <img src="Imagenes/Cartelera.jpg" alt="cartelera">
+              <a href="Documentos/CARTELERA.pdf" target="_blank">CARTELERA</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <div>
+    <div id="PRODUCTOS">
+      <div class="container"> 
+        <div class="contenedor3">
+          <div class="caja3">
+            <div class="row">
+              <div class="clo-md-4">
+                  <img src="Imagenes/MENUS.jpg" alt="MENU">
+                  <a href="Documentos/MENU.pdf" target="_blank">MENU</a>
+              </div>
+            </div>
+          </div>
+          <div class="caja3">
+            <div class="row">
+              <h1>PRODUCTOS</h1>
+              <div class="clo-md-4">
+                <p class="text-black">Contamos con otro sector destinado a la cafetería, donde brindamos servicios para todos las comidas del día. Este servicio es exclusivo del local y ofrecemos la elección de mirar una película con productos de la misma  o solamente acceder a disfrutarlos.</p>
+                <p class="text-black">Tenemos una amplia variedad de productos, dulces y salados para que puedas elegir, también contamos con gastronomía vegana, vegetariana, sin TACC, sin azúcar o sin sal. Para los veganos o vegetarianos consultar con anticipación a través de nuestro contactos o en el local para tener tu menú, ya que estamos implementando este nuevo proyecto.
+                A continuación podrás ver algunos de los productos que ofrecemos en el local haciendo click en "MENU".</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <div class="container"> 
+      <div>
+        <div id="EVENTOS">
+          <h1>EVENTOS</h1>
+          <p>Ofrecemos charlas informativas con personas sordas, sordo-ciegas y ciegas que nos cuentan como es su día a dia, utilización de bastones, lengua de señas y bralle. Para un taller mas dinamico se realizan actividades sensoriales integradoras.</p>
+          <p>Los eventos estan disponible los días Sabados a las 10hs, son bienvenidos a integrar el taller y ser parte de una jornada dinamica entre todos. Los talleres son cambiantes entre ellos tenemos actualmente:</p>
+          <ul>
+            <li>Taller de habilidades para conocer el día a día de personas con discapacidad, tecnicas y habilidades que se adquieren, finalizando con una actividad conjunta.</li>
+            <li>Diseño y creación de juegos de mesa con accesibilidad universal, actividad colaborativa entre gurpos que se forman por personas concurrentes.</li>
+            <li>Taller de comunicación braille y lengua de señas (aprender a escribir y decir su nombre).</li>
+          </ul>
+          <div>
+            <img src="Imagenes/baston.jpg" alt="baston">
+            <img src="Imagenes/pintura.jpg" alt="pintura">
+            <img src="Imagenes/lengua de seña.jpg" alt="lengua de seña">
+            <img src="Imagenes/Beaille.jpg" alt="braille">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <div class="container-fluid" style="background-color: rgb(173, 173, 173);">
+      <div id="CONTACTOS">
+        <p class="text-black">Contáctanos a traves de nuestro correo: cinelatte@gmail.com</p>
+        <p class="text-black">🕒 Lunes a Viernes de 08:30hs a 22:30hs, Sabados 08:30hs a 13:00hs</p>
+        <p class="text-black">Estamos ubicados en Nuevo Centro Shopping, nivel 3</p>
+      </div>
+    </div>
+  </div>
+ 
+  <div>
+    <div id="CONTACTOS">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5895.676495949523!2d-56.17519800561763!3d-34.8702095456718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f807aabfe63b1%3A0xb6f6776baeb3a995!2sNuevocentro%20Shopping!5e0!3m2!1ses!2suy!4v1748786393293!5m2!1ses!2suy" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
+  <div class="container-fluid"> 
+    <footer>
+      <p>Monetevideo, Uruguay | Todos los derechos reservados | ©2025 Cinelatte </p>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+   
+  </body>
+ </html>
